@@ -1,0 +1,101 @@
+/*CSS for Project 1 CSCI E-15
+Created by Esther Weeks September 2013
+*/
+
+
+/*General Rules*/ 
+
+body{background:#d6ca9f;
+	font-family: "Courier New", monospace;
+	margin:0px 0px;
+	}
+
+h1, h2 {text-align:center;
+	}
+	
+h1{
+	font-size: 2em;
+	letter-spacing: 1px;
+	margin: 0px 0px;
+	}
+	
+h2 { font-family:"Monotype Corsiva", monospace;
+	font-weight: normal;
+	font-size: 1.7em;
+	letter-spacing: 1px;
+	word-spacing: 5px;
+	margin: 2px 0px;
+	
+	}
+	
+/*Styles for the footer*/
+footer {
+	border-top: solid 3px #3B3719;
+	clear:both;
+	}
+	
+footer ul li {
+	display: inline;
+	padding: 1em;
+	text-align: center;
+	}
+	
+	
+/*Classes*/
+	
+/*Styles for top of the page*/
+.top{
+	background:#7c94a7;
+	padding: .4em .4em;
+	color: #3B3719;
+	}
+
+/*Styles for left column*/	
+.left {
+	float:left;
+	width: 305px;
+	margin-top: 1.5em;
+	margin-left: .5em;
+	}
+	
+/*Styles for right column*/		
+.right {
+    margin-left: 18em;
+    margin-right: 6em;
+    margin-top: 1.5em;
+    }
+.right h3 {
+	border-left: solid 3px #3B3719;
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+
+/*Clear for float*/
+.clear {
+    clear: both;
+    padding: 1em;
+    border: none;
+    }
+    
+/*Id's*/
+
+/*Font styles for first letter of title*/
+#letter{
+	font-family:"Monotype Corsiva", monospace;
+	font-weight: bold;
+	font-size: 1.7em;
+	}
+
+/*Adds border and margin to photo on left*/
+#mainphoto {
+	border: .4em solid #3B3719;
+    margin-top: -1em;
+	}
+ 
+/*Adds styles to text declaring editor*/
+#editor{
+ 	font-style:italic;
+ 	margin-top: 4em;
+ 	margin-left: 1em;
+ 	font-size: small;
+ 	}
